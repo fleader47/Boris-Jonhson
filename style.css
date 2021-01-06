@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+    margin: 60px 60px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 40px;
+}
+.caption {
+    width: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#nevigation { 
+    border: 1px solid yellowgreen;
+    width: 400px;
+    height: 300px;
+    font: outline;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.etonImg {
+    float: left;
+    height: 150px;
+    width: 200px;
+    font-family: Veranda;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.etonAndOxford {
+float: right;
+padding: 5px;
+
+}
+#earlyCareer {
+    margin-top: 300px;
+}
