@@ -1,28 +1,31 @@
-body{
-    background-color: whitesmoke;
+body {
+    background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
 
 h1 {
     text-align: center;
-    color:mistyrose;
-    background-color: rgb(99, 130, 131);
+    color:darkblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 } 
 h2, h3, h4, h5, h6 {
-    color: teal;
+    color: blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-figure {
 
+figure {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color: cornflowerblue;
 }
+
 p {
     font-size: 16px;
+    color: black;
 }
 .firstSection {
     font-weight: bolder;
@@ -57,7 +60,6 @@ padding: 5px;
     margin-top: 300px;
 }
 #bibliography {
-    background-color: burlywood;
     margin-bottom: 30px;
 }
 .media {  
@@ -93,3 +95,10 @@ padding: 5px;
     font-size: 40px;
     margin-right: 5px;
 }
+/* .darkMode {
+    background-color: black;
+}
+body.darkMode h2, h3, h4 {
+    color: white
+    ;
+} */
