@@ -1,26 +1,36 @@
 body{
     background-color: whitesmoke;
-    margin: 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: teal;
+    color:mistyrose;
+    background-color: rgb(99, 130, 131);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h2 {
-    color: darkcyan;
+} 
+h2, h3, h4, h5, h6 {
+    color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 figure {
-    display: block;
+
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-    border-radius: 40px;
+    width: 50%;
+    background-color: cornflowerblue;
 }
+p {
+    font-size: 16px;
+}
+.firstSection {
+    font-weight: bolder;
+}
+
+
 .caption {
     width: 70px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #nevigation { 
     border: 1px solid yellowgreen;
