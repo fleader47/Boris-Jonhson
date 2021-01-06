@@ -1,14 +1,15 @@
 body{
     background-color: whitesmoke;
-    margin: 50px 50px;
+    margin: 20px 20px;
 }
 
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: teal;
-    background-color: whitesmoke;
-    margin: 50px 50px;
+}
+h2 {
+    color: darkcyan;
 }
 figure {
     display: block;
@@ -44,4 +45,41 @@ padding: 5px;
 }
 #earlyCareer {
     margin-top: 300px;
+}
+#bibliography {
+    background-color: burlywood;
+    margin-bottom: 30px;
+}
+.media {  
+
+}
+#footer {
+    background-color: royalblue;
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: cyan;
+}
+
+.fa-facebook {
+    background: #2353bb;
+    color:cornsilk;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: rgb(240, 236, 236);
+    font-size: 40px;
+    margin-right: 5px;
+}
+.fa-github {
+    background: #55ACEE;
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    margin-right: 5px;
 }
