@@ -1,24 +1,22 @@
 body {
-    background-color:white;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     text-align: center;
-    color:darkblue;
+    color: darkblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
-    color: blue;
+h2,
+h3 {
+    color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 figure {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 p {
@@ -30,22 +28,13 @@ p {
     font-weight: bolder;
 }
 
-.caption {
-    width: 70px;
-}
-
-#nevigation { 
-    border: 1px solid yellowgreen;
-    width: 400px;
-    height: 300px;
-    font: outline;
-    margin-left: 20px;
+#nevigation {
     padding-left: 10px;
 }
 
 .etonImg {
     float: left;
-    height: 150px;
+    height: 300px;
     width: 200px;
     font-family: Veranda;
     margin-right: 5px;
@@ -53,10 +42,9 @@ p {
 }
 
 .etonAndOxford {
-float: right;
-padding: 5px;
-
+    padding: 5px;
 }
+
 #earlyCareer {
     margin-top: 300px;
 }
@@ -65,8 +53,13 @@ padding: 5px;
     margin-bottom: 30px;
 }
 
+#media {
+    overflow: scroll;
+    height: 300px;
+}
+
 #footer {
-    background-color: royalblue;
+    background-color: darkslategray;
     text-align: center;
 }
 
@@ -77,7 +70,7 @@ padding: 5px;
 
 .fa-facebook {
     background: #2353bb;
-    color:cornsilk;
+    color: cornsilk;
     font-size: 40px;
     font-weight: bolder;
     margin-right: 5px;
@@ -97,13 +90,14 @@ padding: 5px;
     margin-right: 5px;
 }
 
-
-/* .darkMode {
+.darkMode {
     background-color: black;
 }
 
-body.darkMode h2, h3, h4 {
-    color: white;
+body.darkMode h2,
+h3,
+h4 {
+    color: green;
 }
 
 .darkMode p {
@@ -111,5 +105,37 @@ body.darkMode h2, h3, h4 {
 }
 
 .darkMode #bibliography {
-    color: cornsilk; */
+    color: cornsilk;
+}
+
+.leftColumn {
+    float: left;
+    width: 75%;
+}
+
+.rightColumn {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    margin: 5px auto;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: darkslategrey;
+}
+
+.card img {
+    width: 100%;
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
 }
