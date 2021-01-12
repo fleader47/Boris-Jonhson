@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     color: darkblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    clear: left;
 }
 
 h2,
@@ -107,6 +108,13 @@ h4 {
 .darkMode #bibliography {
     color: cornsilk;
 }
+
+body.darkMode button {
+    color: black;
+}
+
+
+/* column*/
 
 .leftColumn {
     float: left;
